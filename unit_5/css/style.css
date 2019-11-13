@@ -17,15 +17,17 @@ h1{
 
 p{
 	font-family: "Alegreya Sans SC", sans-serif;
-	font-size:32px
+	font-size:32px;
 	color: red;
 	text-align: center;
 }
 
-img{
-	background-image: "images/Yverdon gold.jpg"; 
-	margin: auto;
-	width: 1500px;
+img.align-center {
+	background-image: url ("images/Yverdon gold.jpg");
+	width: 1400px;
+	height: 800px; 
+	display: block;
+	margin: 0 auto;
 }
 
 section{
