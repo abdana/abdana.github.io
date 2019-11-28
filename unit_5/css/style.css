@@ -1,6 +1,6 @@
 body{
-	background-color: white;
-	font-size: 24px;
+	background-color: grey;
+	font-size: 18px;
 	font-family: "Alegreya Sans", sans-serif;
 }
 
@@ -22,6 +22,12 @@ h2{
 	font-size:32px;
 	color: red;
 	text-align: center;
+	background-color: white;
+}
+h3{
+	font-family: "Alegreya Sans", sans-serif;
+	font-size: 18px;
+	text-align: center;
 }
 
 img {
@@ -32,7 +38,7 @@ img {
 
 #toprow{
 }
-div.Schedule{
+.Schedule{
 	width: 425px;
 	float:left;
 	margin-right: 10px;
@@ -41,7 +47,15 @@ div.Schedule{
 	background-color: #FF957E;
 	border: 1px black solid;
 }
-div.Blog{
+p{
+	padding: 0px 10px 0px 10px;
+}
+hr{
+	color: black;
+	border-color: red;
+	width: 300px;
+}
+.Blog{
 	width: 425px;
 	float:left;
 	margin-right: 10px;
@@ -49,14 +63,17 @@ div.Blog{
 	background-color: #FF957E;
 	border: 1px black solid;
 }
-div.Support{
+.Support{
 	width: 425px;
 	float: left;
 	margin-top: 4px;
 	background-color: #FF957E;
 	border: 1px black solid;
 }
-div.Tokyo{
+div #bottomrow{
+	background-color: blue;
+}
+.Tokyo{
 	width:425px;
 	float:left;
 	margin-top: 4px;
@@ -64,7 +81,7 @@ div.Tokyo{
 	background-color: #FF957E;
 	border: 1px black solid;
 }
-div.Links{
+.Links{
 	width: 425px;
 	float:left;
 	background-color: #FF957E;
@@ -81,30 +98,34 @@ div.Links{
 h2.topics{
 	font-family: 'Alegreya Sans', sans-serif;
 	color: red;
+	background-color: white;
 	font-size: 32px;
 	font-style: italic;
 	text-align: center;
 	border: 1px black solid;
-	padding: 10px;
+	padding:10px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
-h3{
-	font-family: "Alegreya Sans", sans-serif;
-	text-align: center;
-}
+
 nav{
-	background-color: #E8C66A;
-	border: 1px black solid;
 	padding: 20px;
+	color: blue; 
+}
+ul{
+	list-style-type: none;
 }
 footer{
 	background-color: #FF957E;
-	width:400px;
+	width:360px;
+	height: 360px;
+	margin-left: auto;
+	margin-right: auto;
 	border: 1px black solid;
 	padding: 20px;
-	float:left;
 }
-.clearfix: after {
-	visibility: hidden;
+.clearfix:after {
+  visibility: hidden;
   display: block;
   font-size: 0;
   content: " ";

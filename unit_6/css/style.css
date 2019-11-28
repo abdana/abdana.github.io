@@ -1,11 +1,11 @@
 body{
-	background-color: white;
-	font-size: 24px;
+	background-color: grey;
+	font-size: 18px;
 	font-family: "Alegreya Sans", sans-serif;
 }
 
 header{
-	background-color: #FF957E;
+	background-color: #cc3333;
 	border: 1px black solid;
 	padding:20px;
 }
@@ -13,14 +13,25 @@ header{
 h1{
 	font-family: "Alegreya Sans SC", sans-serif;
 	font-size:64px;
-	color: blue;
+	color: #0066ff;
 	text-align: center;
+	background-color: #e08585;
 }
 
 h2{
-	font-family: "Alegreya Sans SC", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-size:32px;
 	color: red;
+	text-align: center;
+	background-color: white;
+	border: 4px solid #e08585;
+}
+h2 i{
+	color: #4d94ff;
+}
+h3{
+	font-family: "Alegreya Sans", sans-serif;
+	font-size: 22px;
 	text-align: center;
 }
 
@@ -32,45 +43,67 @@ img {
 
 #toprow{
 }
-div.Schedule{
+.Schedule{
 	width: 425px;
 	float:left;
 	margin-right: 10px;
 	margin-top: 4px;
 	margin-left: 60px;
-	background-color: #FF957E;
-	border: 1px black solid;
+	background-color: #a6a6a6;
+	border: 3px #595959 solid;
 }
-div.Blog{
+p{
+	padding-top: : 0px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 12px;
+}
+.dates{
+	float:right;
+	color:black;
+	text-decoration: underline;
+}
+.Blog{
 	width: 425px;
 	float:left;
 	margin-right: 10px;
 	margin-top: 4px;
-	background-color: #FF957E;
-	border: 1px black solid;
+	background-color: #a6a6a6;
+	border: 3px #595959 solid;
 }
-div.Support{
+.Support{
 	width: 425px;
 	float: left;
 	margin-top: 4px;
-	background-color: #FF957E;
-	border: 1px black solid;
+	background-color: #a6a6a6;
+	border: 3px #595959 solid;
 }
-div.Tokyo{
+.Support img{
+	margin-bottom: 20px;
+	border: 10px grey solid;
+}
+div #bottomrow{
+	background-color: blue;
+}
+.Tokyo{
 	width:425px;
 	float:left;
 	margin-top: 4px;
 	margin-right:10px;
-	background-color: #FF957E;
-	border: 1px black solid;
+	margin-left: 60px;
+	background-color: #a6a6a6;
+	border: 3px #595959 solid;
 }
-div.Links{
+.Tokyo a{
+	padding-bottom: 40px;
+}
+.Links{
 	width: 425px;
 	float:left;
-	background-color: #FF957E;
+	background-color: #a6a6a6;
 	margin-top: 4px;
 	margin-right: 10px;
-	border: 1px black solid;
+	border: 3px #595959 solid;
 }
 
 /* select all divs inside of the element with an id top */
@@ -81,30 +114,43 @@ div.Links{
 h2.topics{
 	font-family: 'Alegreya Sans', sans-serif;
 	color: red;
+	background-color: white;
 	font-size: 32px;
 	font-style: italic;
 	text-align: center;
 	border: 1px black solid;
-	padding: 10px;
+	padding:10px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
-h3{
-	font-family: "Alegreya Sans", sans-serif;
-	text-align: center;
+
+a{
+	color: blue; 
+	text-decoration: none;
+	padding: 10px;
+	padding-left: 3px;
 }
 nav{
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
+	padding-top: 2px: 
+	padding-left:20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
 }
 footer{
-	background-color: #FF957E;
-	width:400px;
-	border: 1px black solid;
-	padding: 20px;
-	float:left;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px red solid;
+	padding: 10px;
+	text-align: center;
+	font-size: 22px;
 }
-.clearfix: after {
-	visibility: hidden;
+.clearfix:after {
+  visibility: hidden;
   display: block;
   font-size: 0;
   content: " ";
