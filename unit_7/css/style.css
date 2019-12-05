@@ -62,7 +62,7 @@ img {
 }
 .Competitions h3{
 	font-family: "Alegreya Sans SC", sans-serif;
-	font-size: 1.25em;
+	font-size: 1.5em;
 	color:#0066ff; 
 	background-color: #d9d9d9;
 	padding-right: 10px;
@@ -71,14 +71,42 @@ img {
 	padding-bottom: 8px;
 	margin-top: 8px;
 }
-table a{
+#fortwayne{
+	font-size:1.25em;
+	margin-bottom: 0;
+}
+#fortwayne a{
+	color: blue;
 	text-decoration: none;
 }
-nav a{
-	text-decoration: none;
+#redlands{
+	font-size: 1.25em;
+	margin: 0;
+}
+#redlands a{
 	color: blue;
-	text-align: center;
-	background-color: white;
+	text-decoration: none;
+}
+#worldchampionships{
+	font-size: 1.25em;
+	margin:0;
+}
+#worldchampionships a{
+	color: blue;
+	text-decoration: none;
+}
+#teamtrials{
+	font-size:1.25em;
+	margin:0;
+}
+#teamtrials a{
+	color: blue;
+	text-decoration: none;
+}
+a{
+	font-size: 1.25em;
+	color: blue;
+	text-decoration: none;
 }
 .Blog{
 	width: 425px;
