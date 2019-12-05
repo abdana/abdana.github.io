@@ -136,6 +136,15 @@ a{
 	background-color: #a6a6a6;
 	border: 3px #595959 solid;
 }
+.Team ul{
+	line-height: 1.5em;
+	padding-top:8px;
+	padding-bottom:8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	list-style: none;
+	text-align: center;
+}
 .Team img{
 	margin-bottom: 20px;
 	border: 10px grey solid;
@@ -153,6 +162,12 @@ a{
 	margin-left: 4px;
 	border: 3px #595959 solid;
 }
+.Links ul{
+	line-height: 1.5em;
+	list-style: none;
+	text-align: center;
+	margin-bottom: 8px;
+}
 
 h2.topics{
 	font-family: 'Alegreya Sans', sans-serif;
@@ -166,17 +181,6 @@ h2.topics{
 	margin-right: 10px;
 	margin-left: 10px;
 	margin-top: 10px;
-}
-
-li>a{
-	color: blue;
-	text-decoration: none;
-	font-size: 1.25em;
-	padding:4px;
-}
-ul{
-	list-style-type: none;
-	text-align: center;
 }
 footer{
 	background-color: white;
