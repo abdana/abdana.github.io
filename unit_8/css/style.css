@@ -11,8 +11,8 @@ body{
 
 header{
 	background-color: #cc3333;
-	border: 1px black solid;
-	padding:20px;
+	border: .16em black solid;
+	padding: 1.25em;
 }
 
 h1{
@@ -21,8 +21,8 @@ h1{
 	color: #0066ff;
 	text-align: center;
 	background-color: #e08585;
-	border: 1px solid red;
-	margin-bottom: 10px;
+	border: .16em solid red;
+	margin-bottom: .625em;
 }
 
 h2{
@@ -30,11 +30,11 @@ h2{
 	font-size:2em;
 	color: grey;
 	text-align: center;
-	padding-left: 4px;
-	padding-right: 4px;
+	padding-left: .25em;
+	padding-right: .25em;
 	background-color: white;
-	border: 4px solid #e08585;
-	margin-bottom: 10px;
+	border: .625em solid #e08585;
+	margin-bottom: .625em;
 }
 h2 i{
 	color: #4d94ff;
@@ -43,17 +43,18 @@ h2 i{
 img {
 	display: block;
 	margin: 0 auto;
-	border: 20px grey solid;
+	border: 1.25em grey solid;
+	width: 100%;
 
 }
 .Competitions{
-	width: 425px;
+	width: 30%;
 	float:left;
-	margin-right: 4px;
-	margin-top: 4px;
-	margin-left: 66px;
+	margin-right: .25em;
+	margin-top: .25em;
+	margin-left: 4.125em;
 	background-color: #a6a6a6;
-	border: 3px #595959 solid;
+	border: .19em #595959 solid;
 }
 #calendar {
 	font-size: 1.5em;
@@ -65,13 +66,13 @@ h3.Competitions {
 	font-size: 1.5em;
 	color:#0066ff; 
 	background-color: #d9d9d9;
-	margin-top: 8px;
+	margin-top: .5em;
 	text-align: center;
 }
 h3.dates{
 	font-size:1.25em;
 	color:red;
-	margin-bottom: 1px;
+	margin-bottom: .16em;
 	text-align: center;
 }
 article{
@@ -79,10 +80,10 @@ article{
 	background-color: #d9d9d9;
 	text-align: center;
 	line-height: 1em;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	margin-top: 4px;
-	margin-bottom: 4px;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	margin-top: .25em;
+	margin-bottom: .25em;
 }
  article a{
 	display: block;
@@ -98,21 +99,22 @@ article{
 	text-decoration: none;
 	font-size: 1.25em;
 	background-color: #d9d9d9;
-	margin-top: 20px;
-	margin-bottom: 25px;
-	margin-left: 75px;
-	padding-top: 10px;
-	padding-right: 20px;
-	padding-bottom: 10px;
-	padding-left: 20px;
+	margin-top: 1.25em;
+	margin-bottom: 1.56em;
+	margin-left: 35%;
+	padding-top: 1.25em;
+	padding-right: 1.25em;
+	padding-bottom: 1.25em;
+	padding-left: 1.25em;
+	text-align: vertical;
 }
 .Blog{
-	width: 425px;
+	width: 30%;
 	float:left;
-	margin-left: 4px;
-	margin-top: 4px;
+	margin-left: .25em;
+	margin-top: .25em;
 	background-color: #a6a6a6;
-	border: 3px #595959 solid;
+	border: .19em #595959 solid;
 }
 .Blog h3{
 	color: #0066ff;
@@ -135,30 +137,28 @@ article{
 	margin-bottom: .5em;
 }
 .Team{
-	width: 425px;
+	width: 30%;
 	float:left;
-	margin-top: 4px;
-	margin-left: 4px;
-	margin-right: 4px;
-	margin-bottom: 4px;
+	margin: .25em;
 	background-color: #a6a6a6;
-	border: 3px #595959 solid;
+	border: .19em #595959 solid;
 }
 .Team nav a{
 	text-decoration: none;
 	color: blue;
 	font-size: 1.25em;
 	display: block;
-	margin-top:10px;
+	margin-top:.625em;
 	text-align: center;
-	padding: 10px;
+	padding: .625em;
 	background-color: #d9d9d9;
 	
 }
 .Team img{
-	margin-bottom: 20px;
-	margin-top: 20px;
-	border: 10px grey solid;
+	margin-bottom: 1.25em;
+	margin-top: 1.25em;
+	border: .625em grey solid;
+	width: 90%;
 }
 .Team p{
 	font-size: 1.25em;
@@ -166,27 +166,28 @@ article{
 	padding-left: .5em;
 }
 .Links{
-	width: 425px;
+	width: 30%;
 	float:left;
 	background-color: #a6a6a6;
-	margin-top: 4px;
-	margin-left: 4px;
-	border: 3px #595959 solid;
+	margin-top: .25em;
+	margin-left: .25em;
+	border: .19em #595959 solid;
 }
 .Links nav a{
 	color: blue;
 	font-size: 1.25em;
 	line-height: 1em;
-	width: 200px;
+	text-align: center;
+	width: 50%;
 	text-decoration: none;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	padding-left: 8px;
-	padding-right: 8px;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	padding-left: .5em;
+	padding-right: .5em;
 	background-color: #d9d9d9;
 	display: block;
-	margin-top: 4px;
-	margin-bottom: 8px;
+	margin-top: .25em;
+	margin-bottom: .5em;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -196,27 +197,31 @@ h2.topics{
 	font-family: 'Alegreya Sans', sans-serif;
 	color: red;
 	background-color: white;
-	font-size: 32px;
+	font-size: 2em;
 	font-style: italic;
 	text-align: center;
-	border: 1px black solid;
-	padding:10px;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-top: 10px;
+	border: .16em black solid;
+	padding: .625em;
+	margin-right: .625em;
+	margin-left: .625em;
+	margin-top: .625em;
 }
 footer{
 	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
-	border: 1px red solid;
-	padding: 10px;
+	border: .16em red solid;
+	padding: .625em;
 	text-align: center;
-	font-size: 22px;
+	font-size: 1.5em;
 }
 footer a{
 	color:blue;
 	text-decoration: none;
+}
+.clearfix {
+	width: 100%;
+	margin: 0 auto;
 }
 .clearfix:after {
   visibility: hidden;
