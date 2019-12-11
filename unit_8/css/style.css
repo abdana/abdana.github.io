@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 body{
-	background-color: grey;
+	background-color: #484952;
 	font-size: 16px;
 	font-family: "Alegreya Sans", sans-serif;
 }
@@ -21,23 +21,24 @@ h1{
 	color: #0066ff;
 	text-align: center;
 	background-color: #e08585;
-	border: .16em solid red;
+	border: .1em solid red;
 	margin-bottom: .625em;
 }
 
 h2{
-	font-family: "Alegreya Sans", sans-serif;
-	font-size:2em;
-	color: grey;
+	font-family: "Alegreya Sans SC", sans-serif;
+	font-size:1.75em;
+	color: black;
 	text-align: center;
-	padding-left: .25em;
-	padding-right: .25em;
-	background-color: white;
-	border: .625em solid #e08585;
+	padding-top: .25em;
+	background-color: #e08585;
+	width: 75%;
+	margin: 0 auto;
 	margin-bottom: .625em;
 }
+
 h2 i{
-	color: #4d94ff;
+	color: #0066ff;
 }
 
 img {
@@ -48,16 +49,20 @@ img {
 
 }
 .Competitions{
-	width: 30%;
+	width: 25em;
 	float:left;
 	margin-right: .25em;
 	margin-top: .25em;
 	background-color: #a6a6a6;
-	border: .19em #595959 solid;
+	border: .19em black solid;
 }
 #calendar {
 	font-size: 1.5em;
-	color:#0066ff;
+	background-color: white;
+	color: #0066ff;
+	padding-right: .1em;
+	padding-left: .1em;
+	border: .3em solid #d9d9d9;
 
 }
 h3.Competitions {
@@ -108,12 +113,12 @@ article{
 	text-align: center;
 }
 .Blog{
-	width: 30%;
+	width: 25em;
 	float:left;
 	margin-left: .25em;
 	margin-top: .25em;
 	background-color: #a6a6a6;
-	border: .19em #595959 solid;
+	border: .19em black solid;
 }
 .Blog h3{
 	color: #0066ff;
@@ -136,12 +141,12 @@ article{
 	margin-bottom: .5em;
 }
 .Team{
-	width: 30%;
+	width: 25em;
 	float:left;
 	margin-left: .25em;
 	margin-top: .25em;
 	background-color: #a6a6a6;
-	border: .19em #595959 solid;
+	border: .19em black solid;
 }
 .Team nav a{
 	text-decoration: none;
@@ -166,12 +171,12 @@ article{
 	padding-left: .5em;
 }
 .Links{
-	width: 30%;
+	width: 25em;
 	float:left;
 	background-color: #a6a6a6;
 	margin-top: .25em;
 	margin-left: .25em;
-	border: .19em #595959 solid;
+	border: .19em black solid;
 }
 .Links nav a{
 	color: blue;
@@ -190,7 +195,6 @@ article{
 	margin-bottom: .5em;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 h2.topics{
@@ -200,7 +204,7 @@ h2.topics{
 	font-size: 2em;
 	font-style: italic;
 	text-align: center;
-	border: .16em black solid;
+	border: .1em black solid;
 	padding: .625em;
 	margin-right: .625em;
 	margin-left: .625em;
@@ -219,9 +223,8 @@ footer a{
 	color:blue;
 	text-decoration: none;
 }
-.clearfix {
-	max-width: 85em ;
-	margin: 0 auto;
+.clearfix{
+	width:100%;
 }
 .clearfix:after {
   visibility: hidden;
