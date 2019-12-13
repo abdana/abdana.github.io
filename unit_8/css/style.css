@@ -260,6 +260,12 @@ footer a{
 	margin-right:0;
 	margin-top:.1em;
 }
+.Competitions nav a{
+	margin: 0;
+	padding: .25em;
+	border: none;
+	display: inline;
+}
 .Team{
 	width: 33.15%;
 	margin-left:0;
