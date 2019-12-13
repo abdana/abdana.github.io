@@ -74,7 +74,7 @@ img {
 }
 .Competitions h3{
 	font-family: "Alegreya Sans", sans-serif;
-	font-size: 1.5em;
+	font-size: 1.15em;
 	color:black; 
 	background-color: #d9d9d9;
 	margin-top: .5em;
@@ -90,8 +90,8 @@ article{
 	display: block;
 	background-color: #d9d9d9;
 	text-align: center;
-	line-height: 1em;
-	padding-top: .5em;
+	line-height: 1.25em;
+	padding-top: .25em;
 	padding-bottom: .5em;
 	margin-top: .25em;
 	margin-bottom: .25em;
@@ -104,20 +104,26 @@ article{
 	text-align: center;
 	margin-top: 0;
 }
-.Competitions nav a {
-	display: inline-block;
+.Competitions nav{
+	background-color: #a6a6a6;
+	border:.5em grey solid;
+	border-bottom: 1.5em grey solid;
+	margin-top:1em;
+}
+.Competitions nav a{
 	width: 5em;
-	color: blue;
-	text-decoration: none;
-	font-size: 1.25em;
 	background-color: #d9d9d9;
 	border: .1em white solid;
 	padding: .5em;
+	margin-top: 1em;
+	margin-left: 2em;
+	margin-right: 2.5em;
+	margin-bottom: 1em;
+	color: blue;
+	text-decoration: none;
+	font-size: 1.25em;
 	text-align: center;
-	margin:.2em 0;
-}
-#Photos{
-	float:right;
+	display: inline-block;
 }
 
 .Blog{
@@ -151,8 +157,8 @@ article{
 .Team{
 	width: 32.33%;
 	float:left;
-	margin-left: .25em;
 	margin-top: .25em;
+	padding-bottom: .5em;
 	background-color: #a6a6a6;
 	border: .19em black solid;
 }
@@ -201,7 +207,7 @@ article{
 	background-color: #d9d9d9;
 	display: block;
 	margin-top: .5em;
-	margin-bottom: .5em;
+	margin-bottom: 1em;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -231,8 +237,8 @@ footer a{
 	color:blue;
 	text-decoration: none;
 }
-.clearfix{
-	width:100%;
+#stuff{
+	width:90%;
 }
 .clearfix:after {
   visibility: hidden;
